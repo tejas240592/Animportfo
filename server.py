@@ -18,7 +18,7 @@ def hello_world(page_name):
 # 		file = database.write(f'\n{email},{subject},{message}')
 
 def write_to_csv(data):
-	with open('C:/Users/admin/Desktop/energy/database.csv',mode='a',newline='') as data2:
+	with open('database.csv',mode='a',newline='') as data2:
 		email = data["email"]
 		subject = data["subject"]
 		message = data["message"]
